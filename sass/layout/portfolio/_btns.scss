@@ -24,13 +24,15 @@
   cursor: pointer;
 
   transition: background-color var(--animation), color var(--animation), box-shadow var(--animation);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-bg-color);
+    background: var(--secondary-color);
+    box-shadow: var(--btn-box-shadow);
+  }
 }
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  color: var(--primary-bg-color);
-  background: var(--secondary-color);
-  box-shadow: var(--btn-box-shadow);
-}
+
 .btn-active {
   color: var(--primary-bg-color);
   background-color: var(--secondary-color);

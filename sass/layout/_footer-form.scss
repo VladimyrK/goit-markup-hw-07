@@ -6,7 +6,7 @@
 .footer-form__label {
   margin-bottom: 20px;
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -35,6 +35,8 @@
   transition: border-color var(--animation);
 
   &::placeholder {
+    padding-left: 16px;
+
     color: var(--footer-contacts-color);
   }
   &:-webkit-autofill,

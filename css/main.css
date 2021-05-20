@@ -159,8 +159,7 @@ img {
   transition: background-color var(--animation);
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: var(--btn-active-color);
 }
 
@@ -499,6 +498,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -529,7 +529,7 @@ img {
 
 .footer-form__label {
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -554,6 +554,7 @@ img {
 }
 
 .footer-form__email::placeholder {
+  padding-left: 16px;
   color: var(--footer-contacts-color);
 }
 
@@ -757,8 +758,7 @@ img {
   transition: background-color var(--animation), color var(--animation), box-shadow var(--animation);
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:hover, .portfolio-btn:focus {
   color: var(--primary-bg-color);
   background: var(--secondary-color);
   box-shadow: var(--btn-box-shadow);
